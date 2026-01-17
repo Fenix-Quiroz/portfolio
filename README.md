@@ -5,7 +5,7 @@ Portfolio personal donde muestro mis proyectos, habilidades y mi camino en el de
 
 ![Preview del portfolio](docs/preview.png)
 
-- Link del proyecto: [https://fenix-quiroz.vercel.app/](https://fenix-quiroz.vercel.app/)
+- Link del proyecto: [PORTFOLIO](https://portfolio-one-henna-95.vercel.app/)
 
 ## 👋 Sobre mí
 
