@@ -5,6 +5,8 @@ Portfolio personal donde muestro mis proyectos, habilidades y mi camino en el de
 
 ![Preview del portfolio](docs/preview.png)
 
+- Link del proyecto: [https://fenix-quiroz.vercel.app/](https://fenix-quiroz.vercel.app/)
+
 ## 👋 Sobre mí
 
 Soy un desarrollador frontend en formación, apasionado por la programación y la astronomía. 
