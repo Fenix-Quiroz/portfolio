@@ -23,16 +23,13 @@ export default function Hero() {
         {/* Content */}
         <div className="space-y-8">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold text-[#eaeaea] mb-4 text-balance">
-              Hola, soy un desarrollador
-            </h1>
-            <span className="text-gradient text-5xl md:text-6xl font-bold ">
+            <span className="text-gradient text-5xl md:text-6xl font-bold  ">
               Front-end Developer
             </span>
+            <h1 className="text-4xl md:text-3xl font-bold text-[#999999] mt-2 text-balance">
+               especializado en React y Next.js, con experiencia en aplicaciones con IA y consumo de APIs
+            </h1>
           </div>
-          <p className="text-lg text-[#999999] leading-relaxed max-w-xl">
-            Soy un aficionado por la programación y por la astronomía.
-          </p>
           <div>
             <div className="flex gap-6">
               {socialsNetworks.map((social) => (

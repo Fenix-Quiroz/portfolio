@@ -20,7 +20,7 @@ export const projects = [
     id: 2,
     title: "Manga Creator AI",
     description:
-      "Elige un género de manga y continúa la historia como quieras: describe las acciones del personaje y la IA seguirá creando el manga contigo.",
+      "Aplicación que genera historias dinámicas usando IA en base a inputs del usuario, simulando narrativa interactiva.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Google AI Studio"],
     demo: "https://manga-creator-zeta.vercel.app/",
     github: "https://github.com/Fenix-Quiroz/manga-creator",
