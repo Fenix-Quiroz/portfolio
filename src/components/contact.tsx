@@ -1,22 +1,22 @@
-import { socialsNetworks } from "@/consts";
+import { socialNetworks } from "@/consts";
 import Image from "next/image";
 
 export default function Contact() {
   return (
-    <section id="contact" className="px-6 py-20 md:py-32">
+    <section id="contact" className="px-6 py-16 md:py-32">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#eaeaea] mb-6">
             Contacto
           </h2>
           <div className="w-16 h-1 gradient-accent mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8 flex flex-col items-center md:items-start text-center md:text-left">
             <div>
-              <h3 className="text-lg font-semibold text-[#eaeaea] mb-4 flex items-center gap-3">
+              <h3 className="text-lg font-semibold text-[#eaeaea] mb-4 flex items-center justify-center md:justify-start gap-3">
                 <svg
                   className="w-5 h-5 text-pink-500"
                   fill="currentColor"
@@ -38,24 +38,22 @@ export default function Contact() {
               <h3 className="text-lg font-semibold text-[#eaeaea] mb-4">
                 Redes Sociales
               </h3>
-              <div className="flex gap-6">
-                {socialsNetworks.map((social) => (
+              <div className="flex gap-6 justify-center md:justify-start">
+                {socialNetworks.map((social) => (
                   <a
                     key={social.name}
                     href={social.href}
-                    target="_blanck"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-[#252525] border border-[#333333] flex items-center justify-center text-[#999999] hover:text-pink-500 hover:border-pink-500/50 transition-colors"
                     title={social.name}
                   >
-                    <span className="text-xs font-bold">
-                      <Image
-                        className="text-slate-500"
-                        src={social.icon}
-                        alt={social.name}
-                        width={25}
-                        height={25}
-                      />
-                    </span>
+                    <Image
+                      src={social.icon}
+                      alt={social.name}
+                      width={25}
+                      height={25}
+                    />
                   </a>
                 ))}
               </div>
@@ -88,7 +86,7 @@ export default function Contact() {
         </div>
 
         {/* Footer */}
-        <div className="mt-16 pt-8 text-center text-[#666666] text-sm">
+        <div className="mt-10 md:mt-16 pt-8 text-center text-[#666666] text-sm">
           <p>© 2026 Mi Portafolio. Todos los derechos reservados.</p>
         </div>
       </div>
